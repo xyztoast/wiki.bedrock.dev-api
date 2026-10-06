@@ -1,0 +1,10 @@
+name = "dripstoneai-bedrock-wiki-api"
+main = "src/index.js"
+compatibility_date = "2026-10-06"
+
+[vars]
+WIKI_OWNER = "Bedrock-OSS"
+WIKI_REPO = "bedrock-wiki"
+WIKI_REF = "wiki"
+PAGE_CACHE_TTL_SECONDS = "300"
+INDEX_CACHE_TTL_SECONDS = "600"
