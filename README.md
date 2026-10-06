@@ -41,10 +41,6 @@ Requirements: Node.js 20+ and a Cloudflare account only if you later choose to p
 
 Wrangler reads `wrangler.toml`; the default source is the public Bedrock Wiki `wiki` branch. To preview against another source, update `WIKI_OWNER`, `WIKI_REPO`, or `WIKI_REF` in that file. Cache durations can be adjusted with `PAGE_CACHE_TTL_SECONDS` and `INDEX_CACHE_TTL_SECONDS`.
 
-## publish later (not done)
-
-When you decide to publish it, authenticate Wrangler with your Cloudflare account and run `npm run deploy` from this project folder. This project has **not** been deployed, and no Cloudflare settings or DNS records were changed as part of its creation.
-
 ## files
 
 - `src/index.js` — Worker routes, validation, upstream requests, CORS, and caching.
